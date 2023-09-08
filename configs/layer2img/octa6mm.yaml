@@ -1,0 +1,8 @@
+
+target: datamodule.layer2img_train_datamodule_v2.trainDatamodule
+params:
+  train_data_root: #path/to/img/root
+  train_label_root: #path/to/label/root (normalize to [0,255])
+  train_json_path: jsons/octa6mm/train_pathes.json
+  train_cond_json_path: jsons/octa6mm/path2cond.json
+  image_size: [640, 512]

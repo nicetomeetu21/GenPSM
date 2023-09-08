@@ -1,0 +1,7 @@
+
+
+target: datamodule.layergen_train_datamodule.trainDatamodule
+params:
+  train_data_root: # path/to/layer/code/root
+  train_json_path: jsons/octa3mm/train_pathes.json
+  train_cond_json_path: jsons/octa3mm/path2cond.json

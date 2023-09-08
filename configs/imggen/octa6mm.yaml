@@ -1,0 +1,7 @@
+
+target: datamodule.imggen_uncond_datamodule_v2.trainDatamodule
+params:
+  train_data_root:  #path/to/img/root
+  train_json_path: jsons/octa6mm/train_pathes.json
+  image_size: [640, 512]
+  crop_size: [640, 512]

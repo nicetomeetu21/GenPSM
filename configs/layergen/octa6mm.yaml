@@ -1,0 +1,7 @@
+
+
+target: datamodule.layergen_train_datamodule.trainDatamodule
+params:
+  train_data_root: /home/Data/huangkun/layerseg/6mm/layerseg/layer_data/layer_code # path/to/layer/code/root
+  train_json_path: jsons/octa6mm/train_pathes.json
+  train_cond_json_path: jsons/octa6mm/path2cond.json
