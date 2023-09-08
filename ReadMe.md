@@ -1,7 +1,5 @@
 Official implementation of the paper "Diverse Data Generation for Retinal Layer Segmentation with Potential Structure Modelling".
 
-Our codebase builds on [LatentDiffusion](https://github.com/CompVis/latent-diffusion), [LoRA](https://github.com/microsoft/LoRA), and [MONAI](https://docs.monai.io/en/stable/networks.html#vitautoenc).
-
 # Data
 
 Public data 'OCTA-500' can be downloaded at: https://ieee-dataport.org/open-access/octa-500.
@@ -61,5 +59,6 @@ python train_MLDM.py --exp_name MLDM_6mm --result_root path/to/results  --data_c
 python test_MLDM.py --result_save_dir path/to/generated/image --ckpt_path path/to/MLDM/checkpoint  --test_img_root path/to/label --test_json_path jsons/generated_94500.json --first_stage_ckpt path/to/VQVAE/checkpoint
 ```
 
+Our codebase builds on [LatentDiffusion](https://github.com/CompVis/latent-diffusion), [LoRA](https://github.com/microsoft/LoRA), and [MONAI](https://docs.monai.io/en/stable/networks.html#vitautoenc).
 
 
