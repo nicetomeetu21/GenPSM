@@ -34,7 +34,7 @@ python TDPM_lora_merge.py --ckpt_path path/to/finetuned/ckpt --save_path path/to
 ```
 4. Generate labels by given prompts:
 ```shell
-python test_TDPM.py --result_save_dir path/to/generated/label --ckpt_path path/to/MLDM/checkpoint --test_json_path jsons/generated_94500.json
+python test_TDPM.py --result_save_dir path/to/generated/label --ckpt_path path/to/TDPM/checkpoint --test_json_path jsons/generated_94500.json
 ```
 
 # Label-to-img translation
